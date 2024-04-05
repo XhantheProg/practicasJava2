@@ -4,7 +4,7 @@ public class palindromo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese una palabra o frase: ");
-        String palabra = scanner.nextLine().toLowerCase(); // Convertir la entrada a minúsculas
+        String palabra = scanner.nextLine().toLowerCase(); // Convertir la entrada a minúsculas.
 
         boolean esPalindromo = true;
         for (int i = 0; i < palabra.length() / 2; i++) {
