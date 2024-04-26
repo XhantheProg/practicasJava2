@@ -8,7 +8,7 @@ public class menu {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\nSelecciona una opcion:");
+            System.out.println("\nSelecciona una opcion :");
             System.out.println("1. Añade persona a la cola");
             System.out.println("2. Remueve una persona de la cola");
             System.out.println("3. Mostrar la cola");
