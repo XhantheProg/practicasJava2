@@ -65,7 +65,7 @@ import java.util.Scanner;
                        }
                        break;
                    case 4:
-                       colaPersonas.clear();
+                       colaPersonas.poll();
                        System.out.println("La cola a sido liberada");
                        break;
                    case 5:

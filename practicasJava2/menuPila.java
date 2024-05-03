@@ -64,7 +64,7 @@ public class menuPila {
                     }
                     break;
                 case 4:
-                    pilaLibros.clear();
+                    System.out.println(pilaLibros.pop());
                     System.out.println("La pila de libros ha sido liberada");
                     break;
                 case 5:
